@@ -1,0 +1,57 @@
+/*
+px: medadi absoluta
+facel de manejar 
+no recomendada para responsive
+
+em: medida relativa al padre
+    dificil de manejar
+
+rem: medida relativa al root    
+    faceril de manejar a excepcion de las medidas 
+    se puede vovler facil de manejar con un hack
+  
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+}
+
+*/
+
+
+:root {
+    --white: #FFFFFF;
+    --black: #212121;
+    --primary: #FFC107;
+    --secondary: #0097A7;
+    --gray: #757575;
+    --gray-light: #DFE9F3;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'krub' , sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.title{
+  text-align: center;  
+  font-size: 3.8rem;
+}
+
+.title span {
+    font-size: 2rem;
+
+}
